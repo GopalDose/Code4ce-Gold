@@ -1,0 +1,15 @@
+    flask==2.3.3
+    werkzeug==2.3.7
+    flask-cors==4.0.0
+    pymongo==4.5.0
+    python-dotenv==1.0.0
+    bcrypt==4.0.1
+    PyJWT==2.8.0
+    Flask-Cors
+    requests
+    beautifulsoup4
+    APScheduler
+    transformers==4.11.3
+    nltk==3.6.5
+    Flask-PyMongo==2.3.0
+    numpy

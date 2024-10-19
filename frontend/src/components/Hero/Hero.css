@@ -1,0 +1,54 @@
+.Hero {
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.Hero .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 80px 20px;
+}
+
+.Hero h2.country {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.Hero ul {
+    margin-top: 40px;
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Hero ul li {
+    transition: all ease .3s;
+}
+
+.Hero ul li:hover {
+    transform: scale(1.2);
+}
+
+.Hero .country {
+    margin-top: 30px;
+}
+
+.Hero .country select {
+    padding: 10px 30px;
+    background: rgb(58, 58, 58, .7);
+    border: 2px solid #ffffff;
+    border-radius: 25PX;
+    color: #ffffff;
+    backdrop-filter: blur(75px);
+    /* Apply blur effect */
+    -webkit-backdrop-filter: blur(60px);
+}

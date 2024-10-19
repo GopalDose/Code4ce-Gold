@@ -1,0 +1,129 @@
+.sentiment-container {
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+    min-height: 100vh;
+  }
+  
+  .dashboard {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* background-color: white; */
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e5e7eb;
+  }
+  
+  .source-section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid #3b82f6;
+  }
+  
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .chart-card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .chart-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .chart-container {
+    height: 280px;
+    position: relative;
+  }
+  
+  .insights-section {
+    background-color: #f8fafc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .insights-title {
+    color: #2c3e50;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .insights-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chart-card{
+    width: 250xp;
+  }
+
+  .insights-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 6px;
+    border-left: 4px solid #3b82f6;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #4a5568;
+  }
+  
+  .insights-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      padding: 16px;
+    }
+    
+    .dashboard-title {
+      font-size: 1.5rem;
+    }
+    
+    .section-title {
+      font-size: 1.25rem;
+    }
+    
+    .charts-grid {
+      grid-template-columns: 1fr;
+    }
+  }

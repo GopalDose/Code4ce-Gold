@@ -1,0 +1,86 @@
+.container{
+  background: rgba(58, 58, 58, 0.5);
+  backdrop-filter: blur(75px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(60px); 
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hometab{
+  display: grid;
+  grid-template-columns: 58% 38%;
+  gap: 2rem;
+}
+
+.viewarti{
+  padding: 20px 250px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.viewarti h2{
+  font-size: 2.5rem;
+}
+
+.viewarti .summary{
+  font-size: 1.6rem;
+  font-weight: 200;
+  margin: 10px 0px;
+}
+
+.viewarti img{
+  width: 60%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+.viewarti p{
+  margin-bottom: 40px;
+}
+
+.back-button{
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  background: #00b621;
+  color: white;
+  border: none; 
+  border-radius: 5px;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  font-size: .8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.action{
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.action i{
+  margin-right: 20px;
+}
+
+.bxs-heart.active {
+  color: red; /* Change color when active */
+  transform: scale(1.2); /* Optionally, scale up the icon */
+  transition: transform 0.2s; /* Smooth transition for scaling */
+}
+
+.bxs-bookmark-star.active {
+  color: rgb(0, 153, 255); /* Change color when active */
+  transform: scale(1.2); /* Optionally, scale up the icon */
+  transition: transform 0.2s; /* Smooth transition for scaling */
+}
+
+.latestsearch{
+  width: 70%;
+  padding: 0px 200px;
+}
+
+.latestsearch h2{
+  margin-bottom: 20px;
+  color: antiquewhite;
+}

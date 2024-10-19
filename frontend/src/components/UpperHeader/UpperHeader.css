@@ -1,0 +1,25 @@
+.upperheader{
+    display: flex;
+    padding: 5px 150px;
+    padding-top: 0px;
+    justify-content: right;
+}
+
+
+.upperheader .social ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: #ffffff;
+}
+
+
+.upperheader .language{
+    color: white;
+    /* font-size: 12px; */
+}
+
+.upperheader select{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
