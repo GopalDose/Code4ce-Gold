@@ -7,7 +7,7 @@ import { AuthContext } from '../../context/AuthContext';
 const SearchBar = () => {
   const [query, setQuery] = useState('');
   const { language } = useContext(AuthContext);
-  const apiKey = 'c4c217e347bc469290e4b7bf7d6b05f3';
+  const apiKey = your_api_key;
   const navigate = useNavigate();
 
   const handleSearch = async (e) => {
