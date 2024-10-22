@@ -13,7 +13,7 @@ const LatestNews = ({ homeState, setHomeState }) => {
     const fetchData = async () => {
       try {
         let response;
-        const apiKey = 'c4c217e347bc469290e4b7bf7d6b05f3';
+        const apiKey = your_api_key;
 
         if (category === 'All') {
           response = await fetch('http://127.0.0.1:5000/api/articles');
