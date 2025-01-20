@@ -1,0 +1,12 @@
+.latestsearch{
+    padding: 2% 4%;
+}
+
+.latestsearch .card-container{
+    width: 58%;
+}
+
+.latestsearch h2{
+    color: white;
+    font-size: 2rem;
+}
