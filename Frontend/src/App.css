@@ -1,0 +1,7 @@
+.container{
+    background: rgba(58, 58, 58, 0.5);
+    backdrop-filter: blur(75px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(60px); 
+    width: 100%;
+    min-height: 100vh;
+  }

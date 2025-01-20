@@ -1,0 +1,55 @@
+section{
+    padding: 5% 4%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+section .title{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+section .desc{
+    color: rgb(174, 174, 174);
+    margin-bottom: 30px;
+}
+
+section img{
+    margin-bottom: 20px;
+}
+
+section .summary{
+    font-size: 1.2rem;
+}
+
+
+.view-btn{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-weight: bolder;
+    transition: all ease .3s;
+}
+
+.view-btn:hover{
+    padding: 10px 30px;
+}
+
+section .senti{
+    margin-top: 30px;
+}
+
+section .back-button{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background: rgb(185, 185, 185);
+    border: none;
+    border-radius: 20px;
+    align-self: flex-start;
+}

@@ -1,0 +1,18 @@
+.latest{
+    margin-top: 30px;
+    padding: 20px 150px 0px 150px;
+}
+
+.head{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.latest h2{
+    color: rgb(128, 128, 128);
+
+}
+
+.latest h2.active{
+    color: white;
+} 
